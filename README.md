@@ -1,7 +1,10 @@
 # I'll be a Data Scientist in 2025 Insha-Allah
 
+Switching to a [CAREER](CAREER) in AI, ML, or Data Science can be a great move, especially given the rapid growth and demand in these fields
+
 To help you transition into AI, ML, or Data Science from your current role, here’s a structured roadmap and syllabus covering essential topics. Given your strong full-stack background, this roadmap focuses on helping you gradually acquire necessary skills over **6-9 months** by dedicating **4 hours per day**.
 
+When you try to learn somthing new you can follow this [LEARNING_STEP](LEARNING_STEP)
 ### **Roadmap to AI/ML/Data Science Career Transition**
 
 ---
