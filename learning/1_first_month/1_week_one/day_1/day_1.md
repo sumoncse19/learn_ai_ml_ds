@@ -99,6 +99,172 @@ Great! Let’s start with the basics of Python, breaking down key topics to get 
   clean_greeting = greeting.strip().upper()
   ```
 
+Certainly! Here’s a detailed overview of string operations and methods in Python, following the structure you provided:
+
+### **String Operations and Methods**
+
+#### **1. String Operations**
+
+- **Concatenation (`+`):**
+  Combines two or more strings.
+  ```python
+  text1 = "Hello"
+  text2 = "World"
+  combined = text1 + " " + text2  # Concatenation --> "Hello World"
+  ```
+
+- **Repetition (`*`):**
+  Repeats the string a specified number of times.
+  ```python
+  text = "Python"
+  repeated = text * 3  # Repetition --> "PythonPythonPython"
+  ```
+
+- **Slicing:**
+  Extracts a part of the string.
+  ```python
+  text = "Hello World"
+  slice1 = text[0:5]  # Slicing --> "Hello"
+  slice2 = text[6:]   # Slicing --> "World"
+  slice3 = text[:5]   # Slicing --> "Hello"
+  ```
+
+- **Indexing:**
+  Accesses individual characters in the string.
+  ```python
+  text = "Python"
+  first_char = text[0]  # Indexing --> 'P'
+  last_char = text[-1]  # Indexing --> 'n'
+  ```
+
+#### **2. String Methods**
+
+- **`.lower()`:**
+  Converts all characters in the string to lowercase.
+  ```python
+  text = "Hello World"
+  lower_text = text.lower()  # --> "hello world"
+  ```
+
+- **`.upper()`:**
+  Converts all characters in the string to uppercase.
+  ```python
+  text = "Hello World"
+  upper_text = text.upper()  # --> "HELLO WORLD"
+  ```
+
+- **`.title()`:**
+  Converts the first character of each word to uppercase.
+  ```python
+  text = "hello world"
+  title_text = text.title()  # --> "Hello World"
+  ```
+
+- **`.capitalize()`:**
+  Converts the first character of the string to uppercase and the rest to lowercase.
+  ```python
+  text = "hello world"
+  capitalized_text = text.capitalize()  # --> "Hello world"
+  ```
+
+- **`.strip()`:**
+  Removes leading and trailing whitespace from the string.
+  ```python
+  text = "   Hello World   "
+  stripped_text = text.strip()  # --> "Hello World"
+  ```
+
+- **`.lstrip()`:**
+  Removes leading whitespace from the string.
+  ```python
+  text = "   Hello World"
+  left_stripped_text = text.lstrip()  # --> "Hello World"
+  ```
+
+- **`.rstrip()`:**
+  Removes trailing whitespace from the string.
+  ```python
+  text = "Hello World   "
+  right_stripped_text = text.rstrip()  # --> "Hello World"
+  ```
+
+- **`.replace(old, new)`:**
+  Replaces occurrences of a substring with another substring.
+  ```python
+  text = "Hello World"
+  replaced_text = text.replace("World", "Python")  # --> "Hello Python"
+  ```
+
+- **`.split(separator)`:**
+  Splits the string into a list of substrings based on a separator.
+  ```python
+  text = "Hello World"
+  split_text = text.split(" ")  # --> ["Hello", "World"]
+  ```
+
+- **`.join(iterable)`:**
+  Joins elements of an iterable into a single string with the string as a separator.
+  ```python
+  words = ["Hello", "World"]
+  joined_text = " ".join(words)  # --> "Hello World"
+  ```
+
+- **`.find(substring)`:**
+  Returns the lowest index of the substring if found, otherwise returns `-1`.
+  ```python
+  text = "Hello World"
+  index = text.find("World")  # --> 6
+  ```
+
+- **`.rfind(substring)`:**
+  Returns the highest index of the substring if found, otherwise returns `-1`.
+  ```python
+  text = "Hello World World"
+  index = text.rfind("World")  # --> 12
+  ```
+
+- **`.startswith(prefix)`:**
+  Checks if the string starts with the specified prefix.
+  ```python
+  text = "Hello World"
+  starts = text.startswith("Hello")  # --> True
+  ```
+
+- **`.endswith(suffix)`:**
+  Checks if the string ends with the specified suffix.
+  ```python
+  text = "Hello World"
+  ends = text.endswith("World")  # --> True
+  ```
+
+- **`.isalpha()`:**
+  Checks if all characters in the string are alphabetic.
+  ```python
+  text = "Hello"
+  is_alpha = text.isalpha()  # --> True
+  ```
+
+- **`.isdigit()`:**
+  Checks if all characters in the string are digits.
+  ```python
+  text = "12345"
+  is_digit = text.isdigit()  # --> True
+  ```
+
+- **`.isspace()`:**
+  Checks if all characters in the string are whitespace.
+  ```python
+  text = "   "
+  is_space = text.isspace()  # --> True
+  ```
+
+- **`.zfill(width)`:**
+  Pads the string with zeros on the left to achieve the specified width.
+  ```python
+  text = "42"
+  padded_text = text.zfill(5)  # --> "00042"
+  ```
+
 ### **6. Lists**
 
 - **Definition:**
